@@ -1,0 +1,78 @@
+/* startup css */
+html,body {
+	height:100%;
+}
+
+h1,h2,h3,h4,h5,h6,p,blockquote,li {
+	color:blue;
+}
+
+#stage {
+	background-image: url('img/stage.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color:white;
+	height:100%;
+	width:100%;
+	text-align: center;
+	display: flex;
+	align-items: center
+
+	
+}
+
+#stage-caption {
+	font-size: 1.4rem;
+	font-weight: 200;
+	max-width: 60rem;
+    margin:0 auto;
+}
+
+#stage-caption h1 {
+	color:white;
+	text-transform: uppercase;
+	font-weight: 400;
+	
+}
+  
+
+	
+.feature {
+	padding: 8rem 0;
+	
+	
+	
+}
+.feature img {
+	margin-bottom: -8rem;
+}
+
+.feature-dark {
+	background: aqua;
+	color:blue;
+	
+}
+
+.feature-light {
+	background:#f0f0f0;
+}
+
+.blockquote-footer {
+	color:blue;
+}
+#footer-main {
+	background:black;
+	color:white;
+	padding:6rem 0;
+	font-size:0.8rem;
+	
+}
+
+#footer-main a {
+	color:white;
+	
+}
+#footer-main h6 {
+	color:white;
+}

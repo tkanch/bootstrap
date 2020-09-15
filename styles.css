@@ -1,0 +1,49 @@
+html,body {height:100%}
+
+#cover {
+	background: url('img/stars.jpg') center center no-repeat;
+	background-size: cover;
+    color:white;
+	height:100%;
+	text-align: center;
+}
+
+img {
+	width:100%;
+}
+
+#content {
+	padding:5rem 0;
+	
+}
+
+.content {
+	padding:5rem 0;
+	
+}
+
+
+#about {
+	background:url('img/girlincar.jpg') center center no-repeat;
+	background-size: cover;
+}
+#about-text {
+	background:rgba(0,0,0,0.8);
+	padding:1.875rem;
+	color:white;
+	
+}
+#margin {
+	padding:5rem;
+}
+
+.section-content {
+	padding:3rem 0;
+}
+#footer-main {
+	background:#222;
+	color:white;
+	font-size: 0.8rem;
+	padding:2.5rem 0;
+	
+}
